@@ -42,13 +42,13 @@ function mergeStringsAlternately(word1, word2) {
     let newArr = [];
     let i = 0;
 
-    while(i < word1.length) {
+    while (i < word1.length) {
         newArr.push(word1[i]);
         newArr.push((word2[i]));
         i++;
     }
 
-    while(i < word2.length) {
+    while (i < word2.length) {
         newArr.push((word2[i]));
         i++;
     }
