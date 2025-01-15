@@ -24,11 +24,11 @@
  * Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
  */
 
-var reverseWords = function(s) {
+var reverseWords = function (s) {
     let new_s = s.trim();
     let result = '';
     for (let i = 0; i < new_s.length; i++) {
-        if (!(new_s[i] === ' ' && new_s[i+1] === ' ')){
+        if (!(new_s[i] === ' ' && new_s[i + 1] === ' ')) {
             result += new_s[i];
         }
     }
